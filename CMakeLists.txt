@@ -8,3 +8,5 @@ set(CMAKE_MODULE_PATH
     )
 include("PreventInTreeBuilds")
 include("cs484common")
+
+add_subdirectory("dist_graph")
